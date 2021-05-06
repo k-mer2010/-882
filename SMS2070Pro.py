@@ -2,9 +2,9 @@ from pygame import *
 from random import uniform, randint
 '''импортируем функцию для засекания времени, чтобы интерпретатор
  не искал эту функцию в pygame модуле time, даем ей другое название сами 
- 
- e
  '''
+ 
+ 
 import time as timer
 # подгружаем отдельно функции для работы со шрифтом
 font.init()
@@ -20,6 +20,7 @@ start_diff = font_subtitles.render('1 - Легко, 2 - Норм, 3 - Капец
 font2 = font.SysFont('Tahoma', 30)
 # фоновая музыка
 mixer.init()
+#lol kek cheburek
 mixer.music.load('space.ogg') # заменил на Daft Punk - Castor
 #mixer.music.set_volume(0.4) # громкость музыки 40%
 fire_sound = mixer.Sound('fire.ogg')
